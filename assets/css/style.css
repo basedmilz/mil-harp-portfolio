@@ -38,6 +38,7 @@ li a:hover {
   background-color: #111111;
 }
 
+
 nav ul li {
 display: flex;
   /* margin-bottom: 90; */
@@ -55,3 +56,6 @@ p{
   text-align: left;
 }
 
+.content {
+  border-right: 4px solid
+}
