@@ -1,5 +1,57 @@
-.Body {
-    list-style-type: square type k;;
-    margin: 12;
-    padding: 12;
+* {
+}
+body {
+  background-color: brown;
+}
+h1 {
+  
+  background-color: rgb(52, 56, 63);
+  text-align: right;
+  font-family: cursive;
+  
+}
+.container {
+  max-width: 1172px;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+nav ul li {
+display: flex;
+  /* margin-bottom: 90; */
+  background-color: rgb(19, 39, 39);
+  flex-direction: row;
+/* background-color: blue; */
+}
+h2{
+  border-right-width: 10px }
+
+  h3 {
+    /* border: right 1;px crimson; */
   }
+p{
+  text-align: left;
+}
+
