@@ -1,88 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Milton's Portfolio</title>
-   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <div class="header">
+    <ul class="nav">
+        <li class="nav-item">
+            <a style="float: right;" class="nav-link active" aria-current="page" href='#bio'>About Me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Projects">My Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+        <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+        </li>
 
-<h1>Milton's Portfolio
-        <div>
-            <ul>
-                <li>
-                    <a href="#About-Me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#MyProjects">My Projects</a>
-                </li>
-                <li>
-                    <a href="#Contact">About Me</a>
-                </li>
-            </ul>
-    
-        </div>
-    </div>
-</h1>
+        </li>
+    </ul>
+
+    <div class="container" style="background-color:lightblue;">
+        <div class="row">
+            <div class="col-md-8 main-section">
+
+                <img style="float: left; margin: 50px 15px 15px 0px;" src="assets/images/Milpic.jpg" class="text-wrap"
+                    height="200px" width="200px" alt="Milton Harper" ALIGN="left">
+                <p id="bio"class="paragraph" style="margin:50px 15px 15px 0px ;">
+                    My name is Milton Harper, and my background is in Nursing, originally when i first started college I
+                    wanted to be a simulation and game developer but i strayed away from it for awhile and focused on
+                    nursing. Rediscovery a form of computer science I was intrigued with all of the things you can do if
+                    you became a Full Stack Developer. I took interest in coding recently with the problem solving
+                    aspects , and see all the blueprint finally function as a complete whole.
 
 
 
-    <!-- <div class="hero"></div> -->
-    <!-- <div class="content"> -->
+                </p>
+                <br>
+                <p class="paragraph">
+                    I spend most of my time learning about different art forms, spending time outdoors enjoying nature,
+                    and anime and gaming.
+                    I'm originally from New Jersey , but relocated to NC at a young age. I would like to travel to
+                    Japan, Bali, and Ethiopia in the future. Goals I would like to achieve are becoming a Full Stack
+                    Developer, Finishing my Nursing degree and desgining my own anime and/or video game starting a new
+                    corporation.
+                    most outside of the U.S. to eleven countries and hope to continue to do so in the near future.
+                </p>
+            </div>
 
-                   
 
-         <main>
-          <div class="Bio">
-            <img src="./assets/images/Milpic.jpg"class="float-left" />
-            <h3>About Me:</h3>
-            <p>
-               My name is Milton Harper and I am inspiring to be Full-Stack Developer. I took interest in coding recently with the problem solving aspects , and see all the blueprint finally function as a complete whole.
-            </p>
-        </div>
-            </section>
-
-    
-                 <div class="content">
-                 <section id="MyProjects" name="MyProjects">
-                <h2>My Projects:</h2>
-            
-                <h3>My Refactory Project:
-                <a href="https://basedmilz.github.io/Horiseon-Refactor/" target="_blank">
-            <img alt="Link to Site" src="./assets/images/screen-shot-finished-produc.png" class="float-right" />
-                    <p>My very first project, I modified a SEO webpage to make it optimal in accessiblity.</p>
-                </h3> 
-
-            </section>
-                   <div> Text goes here</div>
-             </section>
-         </main>
-         <main>
-             <section>
-            </main>
-            
-            
-        </body>
-        <footer>
-
-            <h3>Contact Me</h3>
             <div class="content">
+                <h2 id="Projects">My Projects: <h6> (click images for redirection)</h6></h2>
+                <a href="https://github.com/basedmilz/mh-work-day-scheduler">Link to Repository</a>
+                <h4 style="font-family: 'Times New Roman', Times, serif;">My Work Day Scheduler:</h4>
+                <p class="paragraph">A application i created that can store your daily events, that you plan and
+                    complete throughout your work day.</p> 
+                <a href=" https://basedmilz.github.io/mh-work-day-scheduler/" target="_blank">
+                    <!-- <img alt="Link to Site" src="./assets/images/screen-shot-finished-produc.png" width="200" height="200" class="float-right" /> -->
+                    <img src="assets/images/workdayscheduler.png" width="300" height="300" ;
+                        style="margin-bottom: 30px;" class="rounded float-start" alt="Work Day Scheduler Project link">
+                        
+
+                </a>
+                
+            </div>
+            <a href="https://github.com/JD-Jaramillo/Recipe-and-Cocktail-Suggester">Link to Repository</a>
             <div>
-    
-                <a href="https://www.linkedin.com/in/milton-harper-0353bb161/">Linkedin</a>
-                <a href="#">252-432-0316</a>
-                <a href="#">252-432-0316</a>
-                <a href="#">252-432-0316</a>
-               </div>
-               <div>Text goes here</div>
-           </section>
-       </footer>
+                <h4 style="font-family: 'Times New Roman', Times, serif;">Project 1:</h4>
+                <p class="paragraph">My first collabaration project, a few members of my cohort and I created an
+                    application using Web Api's to sync data to collect recipe and cocktail mixer ideas.
+                    accessiblity.</p>
+                <a href="https://jd-jaramillo.github.io/Recipe-and-Cocktail-Suggester/" target="_blank">
+                    <img src="assets/images/FirstProject.png" width="300" height="300" ; style="margin-bottom: 30px;"
+                        class="rounded float-right" alt="Project 1">
+                    </a>
+            </div>
+
+            <a href="https://github.com/basedmilz/mh-weather-dashboard">Link to Repository</a>
+
+
+            <div>
+                <h4 style="font-family: 'Times New Roman', Times, serif;"> Weather Dashboard:</h4>
+                <p class="paragraph">A application were you can input your current city and it will fetch
+                    currect weather conditions using Open Weaher API.</p>
+                <a href="https://basedmilz.github.io/mh-weather-dashboard/" target="_blank">
+                    <img src="assets/images/weather-dashboard.png" width="300" height="300" ;
+                        style="margin-bottom: 30px;" class="rounded float-right" alt="Project 1 link"> </a>
+            </div>
+
+
+        </div>
+
         
-        </html>
-        
-        
-        
+
+
+</body>
+
+
+<a id="resume" href="Resume.pdf" download="Milton's Resume">Download My Resume</a>
+
+<h4 >Connect with me: </h4>
+
+
+<footer>
+    <a href="https://github.com/basedmilz" target="_blank"><img src="assets/images/githubcat.png" width="80" height="80"
+            ; alt="GitHub" class="githubImage">
+    </a>
+
+    <a id="contact"href="https://www.linkedin.com/in/milton-harper-0353bb161/" target="_blank"><img src="assets/images/lin.jpeg"
+            width="80" height="80" class="linkedinImage" alt="Linkedin">
+    </a>
+
+
+</footer>
+
+</html>
