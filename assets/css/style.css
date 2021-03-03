@@ -1,5 +1,4 @@
-* {
-}
+
 body {
   background-color: brown;
 }
@@ -49,9 +48,6 @@ display: flex;
 h2{
   border-right-width: 10px }
 
-  h3 {
-    border: right 1px crimson;
-  }
 p{
   text-align: left;
 }
