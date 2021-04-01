@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Milton's Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
 </head>
 
 <body>
-    <ul class="nav">
+    <!--<ul class="nav">
         <li class="nav-item">
             <a style="float: right;" class="nav-link active" aria-current="page" href='#bio'>About Me</a>
         </li>
@@ -26,15 +24,187 @@
         </li>
 
         </li>
-    </ul>
+    </ul> -->
+    <nav class="navbar" role="navigation" aria-label="main navigation" id="navi">
+        <div class="navbar-brand">
 
-    <div class="container" style="background-color:lightblue;">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#bio">
+                    About Me
+                </a>
+
+                <a class="navbar-item" href="#Projects">
+                    My Projects
+                </a>
+
+                <a class="navbar-item" href="#resume">
+                    Resume
+                </a>
+
+                <a class="navbar-item" href="#contact">
+                    Contact
+                </a>
+                </a>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </nav>
+
+    <div class="container is-fluid">
+        <div class="notification is-primary">
+            <div class="box">
+                <article class="media">
+                    <div class="media-left" id="profile_image">
+                        <figure class="image is-120x120">
+                            <img class="is-4by3" src="assets/images/Milpic.jpg" alt="Image">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <div class="content" id="content_box">
+                            <p>
+                                <strong>Milton Harper</strong>
+                                <br>
+                                Hi I am a Full-Stack Developer, and my background is in Nursing, originally when i first
+                                started college I
+                                wanted to be a simulation and game developer but i strayed away from it for awhile and
+                                focused on
+                                nursing. Rediscovery a form of computer science I was intrigued with all of the things
+                                you can do if
+                                you became a Full Stack Developer. I took interest in coding recently with the problem
+                                solving
+                                aspects , and see all the blueprint finally function as a complete whole.
+                            </p>
+                            <br>
+                            <p class="paragraph">
+                                I spend most of my time learning about different art forms, spending time outdoors
+                                enjoying nature,
+                                and anime and gaming.
+                                I'm originally from New Jersey , but relocated to NC at a young age. I would like to
+                                travel to
+                                Japan, Bali, and Ethiopia in the future. Goals I would like to achieve are becoming a
+                                Full Stack
+                                Developer, Finishing my Nursing degree and desgining my own anime and/or video game
+                                starting a new
+                                corporation.
+                                most outside of the U.S. to eleven countries and hope to continue to do so in the near
+                                future.
+                            </p>
+
+                        </div>
+                        <nav class="level is-mobile">
+                            <div class="level-left">
+                                <a class="level-item" aria-label="reply">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-reply" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                                <a class="level-item" aria-label="retweet">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-retweet" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                                <a class="level-item" aria-label="like">
+                                    <span class="icon is-small">
+                                        <i class="fas fa-heart" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <p class="title" id="Projects">My Projects: 
+        </h2>
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <p class="subtitle">Doodle Node:</p>
+                        <p>An app that lets you draw and save art.</p>
+                        <a href="https://drawings-creator-and-gallery.herokuapp.com/" target="_blank">
+                            <img src="assets/images/doodlenode.png" width="300" height="300" ; style="margin-bottom: 30px;"
+                                class="rounded float-right" alt="Project 1">
+                        </a>
+                        
+                    </div>
+                    <div class="column">
+                        <p class="subtitle">Note Taker:</p>
+                        <p>An app that lets create, save, and deletes notes.</p>
+                        <a href="https://rocky-sea-77997.herokuapp.com/notes" target="_blank">
+                            <img src="assets/images/notetaker.png" width="300" height="300" ; style="margin-bottom: 30px;"
+                                class="rounded float-right" alt="Project 1">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <p class="subtitle">The Hedge:</p>
+                        <p>An app that organizes table listing at a restaurant.</p>
+                        <a href="https://fierce-meadow-87660.herokuapp.com/" target="_blank">
+                            <img src="assets/images/TheHedge.png" width="300" height="300" ; style="margin-bottom: 30px;"
+                                class="rounded float-right" alt="Project 1">
+                        </a>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </div>
+<!-- 
+    <div class="column">
+        <h4 style="font-family: 'Times New Roman', Times, serif;">Project 1:</h4>
+        <p class="paragraph">My first collabaration project, a few members of my cohort and I created an
+            application using Web Api's to sync data to collect recipe and cocktail mixer ideas.
+            accessiblity.</p>
+        <a href="https://jd-jaramillo.github.io/Recipe-and-Cocktail-Suggester/" target="_blank">
+            <img src="assets/images/FirstProject.png" width="300" height="300" ; style="margin-bottom: 30px;"
+                class="rounded float-right" alt="Project 1">
+        </a>
+
+    </div>
+    </div>
+ -->
+
+    <!-- <div
+            class="box is-flex is-justify-content-center is-flex-wrap-wrap is-align-items-center is-flex-direction-column">
+    <div class="content">
+        <h2 id="Projects">My Projects: <h6> (click images for redirection)</h6>
+        </h2>
+        <a href="https://github.com/basedmilz/mh-work-day-scheduler">Link to Repository</a>
+        <h4 style="font-family: 'Times New Roman', Times, serif;">My Work Day Scheduler:</h4>
+        <p class="paragraph">A application i created that can store your daily events, that you plan and
+            complete throughout your work day.</p>
+        <a href=" https://basedmilz.github.io/mh-work-day-scheduler/" target="_blank">
+            <img alt="Link to Site" src="./assets/images/screen-shot-finished-produc.png" width="200" height="200" class="float-right" /> -->
+    <!-- <img src="assets/images/workdayscheduler.png" width="50" height="50" ;
+                style="margin-bottom: 30px;" class="rounded float-start" alt="Work Day Scheduler Project link">
+
+
+        </a> -->
+
+    <!-- </div>
+  </div> -->
+
+    <!-- <div class="container" style="background-color:lightblue;">
         <div class="row">
             <div class="col-md-8 main-section">
 
                 <img style="float: left; margin: 50px 15px 15px 0px;" src="assets/images/Milpic.jpg" class="text-wrap"
                     height="200px" width="200px" alt="Milton Harper" ALIGN="left">
-                <p id="bio"class="paragraph" style="margin:50px 15px 15px 0px ;">
+                <p id="bio" class="paragraph" style="margin:50px 15px 15px 0px ;">
                     My name is Milton Harper, and my background is in Nursing, originally when i first started college I
                     wanted to be a simulation and game developer but i strayed away from it for awhile and focused on
                     nursing. Rediscovery a form of computer science I was intrigued with all of the things you can do if
@@ -54,25 +224,26 @@
                     corporation.
                     most outside of the U.S. to eleven countries and hope to continue to do so in the near future.
                 </p>
-            </div>
+            </div> -->
 
-
+    <!-- 
             <div class="content">
-                <h2 id="Projects">My Projects: <h6> (click images for redirection)</h6></h2>
+                <h2 id="Projects">My Projects: <h6> (click images for redirection)</h6>
+                </h2>
                 <a href="https://github.com/basedmilz/mh-work-day-scheduler">Link to Repository</a>
                 <h4 style="font-family: 'Times New Roman', Times, serif;">My Work Day Scheduler:</h4>
                 <p class="paragraph">A application i created that can store your daily events, that you plan and
-                    complete throughout your work day.</p> 
+                    complete throughout your work day.</p>
                 <a href=" https://basedmilz.github.io/mh-work-day-scheduler/" target="_blank">
-                    <!-- <img alt="Link to Site" src="./assets/images/screen-shot-finished-produc.png" width="200" height="200" class="float-right" /> -->
-                    <img src="assets/images/workdayscheduler.png" width="300" height="300" ;
-                        style="margin-bottom: 30px;" class="rounded float-start" alt="Work Day Scheduler Project link">
-                        
+                    < <img alt="Link to Site" src="./assets/images/screen-shot-finished-produc.png" width="200" height="200" class="float-right" /> -->
+    <!-- < <img src="assets/images/workdayscheduler.png" width="300" height="300" ; -->
+    <!-- style="margin-bottom: 30px;" class="rounded float-start" alt="Work Day Scheduler Project link">
+
 
                 </a>
-                
-            </div>
-            <a href="https://github.com/JD-Jaramillo/Recipe-and-Cocktail-Suggester">Link to Repository</a>
+
+            </div> -->
+    <!-- <a href="https://github.com/JD-Jaramillo/Recipe-and-Cocktail-Suggester">Link to Repository</a>
             <div>
                 <h4 style="font-family: 'Times New Roman', Times, serif;">Project 1:</h4>
                 <p class="paragraph">My first collabaration project, a few members of my cohort and I created an
@@ -81,7 +252,7 @@
                 <a href="https://jd-jaramillo.github.io/Recipe-and-Cocktail-Suggester/" target="_blank">
                     <img src="assets/images/FirstProject.png" width="300" height="300" ; style="margin-bottom: 30px;"
                         class="rounded float-right" alt="Project 1">
-                    </a>
+                </a>
             </div>
 
             <a href="https://github.com/basedmilz/mh-weather-dashboard">Link to Repository</a>
@@ -98,8 +269,8 @@
 
 
         </div>
+ -->
 
-        
 
 
 </body>
@@ -107,18 +278,22 @@
 
 <a id="resume" href="Resume (1).pdf" download="Milton's Resume">Download My Resume</a>
 
-<h4 >Connect with me: </h4>
+<h4 id="connectW">Connect with me: </h4>
 
 
 <footer>
-    <a href="https://github.com/basedmilz" target="_blank"><img src="assets/images/githubcat.png" width="80" height="80"
+    <a id="contact"></a>
+    <div class="contact block">
+        <a href="https://github.com/basedmilz" target="_blank"><img src="assets/images/githubcat.png" width="40" height="40"
             ; alt="GitHub" class="githubImage">
     </a>
 
-    <a id="contact"href="https://www.linkedin.com/in/milton-harper-0353bb161/" target="_blank"><img src="assets/images/lin.jpeg"
-            width="80" height="80" class="linkedinImage" alt="Linkedin">
+    <a id="contact" href="https://www.linkedin.com/in/milton-harper-0353bb161/" target="_blank"><img
+            src="assets/images/lin.jpeg" width="40" height="40" class="linkedinImage" alt="Linkedin">
     </a>
 
+    </div>
+   
 
 </footer>
 
